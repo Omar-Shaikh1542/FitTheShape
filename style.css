@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #41e0d0;
+}
+.shapes{
+    min-width: 100%;
+    height: 40%;
+    background-color: #cbf3f0;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center; 
+}
+
+.circle{
+    /* padding: 5rem; */
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    /* margin-left: 5%; */
+    /* display: none; */
+    /* left: 5%;
+    top: 10%; */
+    box-shadow: 2px -2px 12px black,
+    inset -1px -1px 12px black;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.square{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    /* left: 43%;
+    top: 10%; */
+    /* margin: 5px; */
+    box-shadow: 2px -2px 12px black,
+    inset -1px -1px 12px black;
+    background-color: rgb(0, 255, 85);
+}
+.rect{
+    height: 10rem;
+    width: 15rem;
+    position:   absolute;
+    /* right: 5%;
+    top: 10%; */
+
+    /* transform: translate(50%, 1%); */
+    box-shadow: 2px -2px 12px black,
+    inset -1px -1px 12px black;
+    background-color: rgb(208, 255, 0);
+}
+.box{
+    /* padding: 50%; */
+    height: 60%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #ffbf69;
+    border: 5px solid #ff9f1c;
+    box-shadow: inset 3px 3px 20px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.circle-hole{
+    transform: translateY(150%);
+    /* padding: 5% 5% 5% 5%; */
+    height: 10rem;
+    width: 10rem;
+    background-color: #e5f8f8;
+    box-shadow: inset 0px 0px 15px #140404;
+    border-radius: 50%;
+}
+.square-hole{
+    transform: translateY(150%);
+    height: 10rem;
+    width: 10rem;
+   
+    background-color: #e5f8f8;
+    box-shadow: inset 0px 0px 15px #000000;
+}
+.rect-hole{
+    transform: translateY(50%);
+    /* margin-top: 5%; */
+    height: 10rem;
+    width: 15rem;
+   
+    background-color: #e5f8f8;
+    box-shadow: inset 0px 0px 15px #160404;
+}
